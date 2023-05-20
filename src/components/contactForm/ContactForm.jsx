@@ -3,9 +3,9 @@ import { nanoid } from 'nanoid';
 import css from '../contactForm/contactForm.module.css';
 
 export const ContactForm = props => {
-  const [contacts, setContacts] = useState([]);
-  const [name, setName] = useState('');
-  const [number, setNumber] = useState('');
+  // const [contacts, setContacts] = useState([]);
+  const [, setName] = useState('');
+  const [, setNumber] = useState('');
 
   const nameId = nanoid();
   const numberId = nanoid();
